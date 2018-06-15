@@ -13,9 +13,8 @@
 ### Setup Project:
 1. Install Vagrant and VirtualBox. See steps form links provided above.
 2. Virtual Machine - Download or Clone [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm).
-3. Download the [database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
-4. Unzip this file and find newsdata.sql.
-5. [Download or clone this project](https://github.com/ashutosh-sharma/Log-Analysis-Project-3---FSND---Udacity) and place newsdata.sql file in the same folder.
+3. Download the [database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Unzip this file and find newsdata.sql.
+4. [Download or clone this project](https://github.com/ashutosh-sharma/Log-Analysis-Project-3---FSND---Udacity) and place newsdata.sql file in the same folder.
 
 ### Launching the Virtual Machine:
 
@@ -36,7 +35,7 @@
 	- use `\q` to quit the database 
 	- use `\dt` to see the tables in database
 	
-### Some views for proper and efficient functioning of the project.Create these views in your project.
+### Views for proper and efficient functioning of the project.
 
 **1. articleStat**
 ```sql
@@ -71,9 +70,9 @@
 
 ## Run the python file logAnalysis.py, this contains all the queries:
 ```
-	$ python logAnalysis.py
+    $ python logAnalysis.py
 ```
 
-## You can see output of the the python code in output_logAnalysis.txt
+## You can see output of the logAnalysis.py in output_logAnalysis.txt
 
 ☮️ Peace ☮️
